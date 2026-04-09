@@ -11,9 +11,6 @@ declare const BotConfigSchema: z.ZodObject<{
     autoReconnect: z.ZodDefault<z.ZodBoolean>;
     reconnectDelay: z.ZodDefault<z.ZodNumber>;
     maxReconnectAttempts: z.ZodDefault<z.ZodNumber>;
-    markOnline: z.ZodDefault<z.ZodBoolean>;
-    syncHistory: z.ZodDefault<z.ZodBoolean>;
-    linkPreview: z.ZodDefault<z.ZodBoolean>;
     showLogs: z.ZodDefault<z.ZodBoolean>;
     printQR: z.ZodDefault<z.ZodBoolean>;
     browser: z.ZodDefault<z.ZodString>;
